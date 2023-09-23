@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="./lib.css">
+    <script src="lib.js"></script>
+</head>
+<body>
+
+<h1>Library Management System</h1>
+<h3>Add book</h3>
+
+
+<!--for form and data submission-->
+
+<form action="index.html" method="get" id="bookForm">
+    <label for="bookName">Book Name:</label>
+    <input type="text" id="bookName" name="bookname" required><br><br>
+
+    <label for="author">Author:</label>
+    <input type="text" id="author" name="author" required><br><br>
+
+    <label for="publisher">Publisher:</label>
+    <input type="text" id="publisher" name="publisher" required><br><br>
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <a href="index.html"><button type="button" id="submitButton" onclick="submitForm()">Submit</button></a>
+    <a href="index.html"><button type="button">Go Back</button></a>
+   
+</form>
+
+
+
+</body>
+</html>
